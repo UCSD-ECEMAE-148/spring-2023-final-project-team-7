@@ -1,4 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/M2_fO6fJ)
+![Home | Jacobs School of Engineering](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
+
 # **MAE 148 SPRING 2023: Team 7**
 **Team Members:** Blake Iwaisako, William Zhao, Qiudi He, Jeffrey Han
 
@@ -123,3 +124,11 @@ Pedestrian Avoidance
 
 ## Early Quarter
 
+### Links to Progress Videos
+[First Autonomous Lap using GPS](https://www.youtube.com/watch?v=hCbwt8EDgjE)
+
+[First Three Autonomous Laps using the OAK-D camera](https://www.youtube.com/watch?v=gDzq0wEswKs&t)  
+
+[Yellow Line Following](https://www.youtube.com/watch?v=mlyeFP09i_I) 
+
+[Inner Lane Following](https://www.youtube.com/watch?v=i9f_KKLGM4M)
