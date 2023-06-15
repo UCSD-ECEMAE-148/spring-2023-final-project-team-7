@@ -156,8 +156,13 @@ Pedestrian Avoidance
 [Inner Lane Following](https://www.youtube.com/watch?v=i9f_KKLGM4M)
 
 ## Custom Designed Hardware
+### Camera Stand
 <div align="center">
-    <img src="Images\cam_assem.png" width="200" height="200">
-    <img src="Images\cam_side.png" width="200" height="200">
+    <img src="Images\cam_assem.png" width="300" height="300">
+    <img src="Images\cam_side.png" width="300" height="300">
 </div>
-###
+
+### Magnetic Hinge Mounting Plate
+<div align="center">
+    <img src="Images\plate_assem.png" width="300" height="300">
+</div>
