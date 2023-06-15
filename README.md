@@ -7,7 +7,6 @@
 <div align="center">
     <h3>ECE-MAE 148 Final Project</h3>
     <p>
-    Team 3 Spring 2023
     </p>
 </div>
 
@@ -26,9 +25,10 @@
 
 ![](https://lh4.googleusercontent.com/7-Lq0UwWIEiCCS1BK4yUAiYpdFAxF_jG3UWVmiCunM1wiYCF471jUJyWZsKAK7qwSb9IPbliTvdOhNu2w2CW99g0bLbpQBlGtnhf7fxSZyWykeyOXdlGeBt9mdtzaq5NtX5m9G9W8erBSKHDkO7ciHw)
 
-**Overview:** Develop an autonomous car that is capable of detecting and avoiding pedestrian-shaped obstacles while following a predetermined track. The OAKD camera will detect and analyze the environment, including the presence of pedestrians, and use that information to make decisions on how to maneuver around them.
+**Overview:** Develop an autonomous car that is capable of detecting and avoiding pedestrian-shaped obstacles while following a predetermined track. The OAKD camera will detect and analyze the environment, including the presence of pedestrians, and use that information to make decisions on how to maneuver around them. We will create a SEPARATE "pedestrian" car that will cross the road. 
+## [--->Demonstration Video<---](https://youtube.com/shorts/CGoW5MynGYg)
 
-**Goals we Promised**
+### **Goals we Promised**
 
 *Pedestrian Detection*
 -   Detection Consistency
@@ -63,7 +63,7 @@
 ### Our Car
 <div align="center">
     <img src="Images\robot_front" width="500" height="700">
-    <img src="Images\robot_" width="500" height="700">
+    <img src="Images\robot_rear" width="500" height="700">
 </div>
 
 ### Schematic
@@ -85,6 +85,11 @@
 ### Description of the Pedestrian “Legs”
 The pedestrian's "legs" are made from an Arduino rover that utilizes an Adafruit motor shield. These motors are calibrated to move in a straight line prependicular to the predetermined path of the car.
 
+<div align="center">
+    <img src="Images\pedestrian_legs.gif" width="500" height="750">
+</div>
+
+
 ### What We Used
 
 -   ROS2 Framework
@@ -96,7 +101,11 @@ The pedestrian's "legs" are made from an Arduino rover that utilizes an Adafruit
 
 When the pedestrian is attached to its “Legs” the OAK-D camera will often recognize it as a car instead of a person. Our solution is to tell the OAK-D to recognize both vehicles and humans as both “pedestrians”
 
-![](https://lh3.googleusercontent.com/QTZ4NCvxMmY_l51k1HuYB_Uz7EuFox7yRXnJ7vJcom-xDKx-IzfFGIJVOH9cOAOFk8RbrbV2A_EcypMFleCnV9M6Igl9Y8GPbx-4VTBNMQ20kF1Mi_lIc4497er8jz-cQTAft5uk6wqWuSIKxsQeHy4)![](https://lh3.googleusercontent.com/14FT6iDPITJ5sfr040_L8rnILjH9nJC4gsGPc79_6a47BETYlT18mTcjJuaypcIrpNnLgKBYAWAqkt5tija1QQFdOkZKm1kZCG7VUwxoMpVxHfdJS7k1KKjYWV0GI1pCfuSAwkhfUV9mZHuXLzkMo_8)![](https://lh4.googleusercontent.com/ayKa_Bf2wtQDc7UIN0wOxV5nlxN-9MeW0vxH4tylaz9MPk312pY1pM17oDUCyoyHt3kOFoS8S5VD_mDtrtLZdiGwz3NsA-OuYP8Sbqp6eHvADzVQaZI0mIhWyB_qq6ZVNqF6RzwNqFWCcNC_0Owlt1k)
+<div align="center">
+    <img src="Images\pedestrian_detect_1" width="200" height="200">
+    <img src="Images\pedestrian_detect_2" width="200" height="200">
+    <img src="Images\pedestrian_detect_3" width="200" height="200">
+</div>
 
 ### What did not work as expected
 
@@ -109,7 +118,7 @@ When the pedestrian is attached to its “Legs” the OAK-D camera will often re
 -   Yellow Pedestrian: The model pedestrian had quite a bit of yellow on it. This would cause the car to follow it like a yellow line sometimes rather than stopping.
     
 
--   Solution: Painted all yellow parts on the pedestrian black. (Completed)
+-   Solution: Painted all yellow parts on the pedestrian black.
     
 
 -   Potentially inconsistent depth recognition: The depth detection assumed that the closest object would always be the pedestrian. However, if it sees a person/car in the distance and also has something else close to it, it will stop at an unintended
@@ -132,11 +141,12 @@ Pedestrian Avoidance
     
 
 -   Car is able to stop when it sees the pedestrian in its line of sight and back up. When pedestrian cross out of its view, across the road, the car proceeds forward.
-    
 
-## Early Quarter
+<div align="center">
+    <h2>Early Quarter</h2>
+</div>
 
-### Links to Progress Videos
+## Links to Progress Videos
 [First Autonomous Lap using GPS](https://www.youtube.com/watch?v=hCbwt8EDgjE)
 
 [First Three Autonomous Laps using the OAK-D camera](https://www.youtube.com/watch?v=gDzq0wEswKs&t)  
@@ -144,3 +154,10 @@ Pedestrian Avoidance
 [Yellow Line Following](https://www.youtube.com/watch?v=mlyeFP09i_I) 
 
 [Inner Lane Following](https://www.youtube.com/watch?v=i9f_KKLGM4M)
+
+## Custom Designed Hardware
+<div align="center">
+    <img src="Images\cam_assem.png" width="200" height="200">
+    <img src="Images\cam_side.png" width="200" height="200">
+</div>
+###
