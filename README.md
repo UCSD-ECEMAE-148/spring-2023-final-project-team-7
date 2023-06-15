@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-    <img src="images\ourRobot.PNG" width="500" height="400">
+    <img src="Images\robot_front" width="500" height="700">
 </div>
 <br>
 <hr>
@@ -20,7 +20,7 @@
 
 
 
-## Pedestrian Detection/Avoidance
+## Final Project: Pedestrian Detection/Avoidance
 
 
 
@@ -58,15 +58,13 @@
 **Goals that would be nice to have**
 
 -   Implement Lidar detection as a redundancy alongside the OAK-D camera
-    
 
-  
 
-### Our Robot
-
-![](https://lh3.googleusercontent.com/ZdrgS7liHblrDxy18zTqCZ_6dA56byBBoo2QuGjqprlYR9_8qhvYDEAxEJkPdNiOIH8jCvH_v1k_qPkZfXpuWzeUA0cF3UrC81OnkuuuHkixkK0UOodcMbIl95K3748uzqAYyh_-8mf10032GB9UjeQ)![](https://lh4.googleusercontent.com/yIq69bweBXrrYZ0hiBmHhGfPDNoHIICKna5iHzjnZ_s35NOt50L2tHcvAft4QlRoVUy72WQHD2TtRfYoyPdlkzjvKFueI-F92wY22rq0VuAK4s4LoUFWIxcDRGBvpDJCjbxHGgmG-PSqAXb6lLIztPs)
-
-  
+### Our Car
+<div align="center">
+    <img src="Images\robot_front" width="500" height="700">
+    <img src="Images\robot_" width="500" height="700">
+</div>
 
 ### Schematic
 
@@ -75,8 +73,10 @@
   
 
 ### Our Pedestrian Cutout
-
-![](https://lh4.googleusercontent.com/fW46m0Eaq7LB_FLRS4zicSYe1s4X7XDx7HeqVOuzAm3r_CeRE6wg3IXiS4XXcQm1UYhwpLz8crhcZWJnDFqm-LZIRc6ucjrRlEQrssZc85Oc8fwIcg-2sd0Y_V8q003vbGISFw98Xi17tvktfnNSsuY)![](https://lh5.googleusercontent.com/dOvT4FEm6Xo3ClmCcKzhBVi_jEMlbi-4zSUAFGHZHHVZrqLidZk8mWXd2QIEss-gqfBbds-_5TL3EV1AiJdOu2UDkzuDRnMfNYwe5sLKoQxE03AxBerm3-_C83mcMv-EpepQHRf9eJ38tVz6KExZoF4)
+<div align="center">
+    <img src="Images\pedestrian_cutout" width="500" height="700">
+     <img src="Images\pedestrian car" width="500" height="700">
+</div>
 
 ### Detection of the pedestrian cutout
 
