@@ -16,6 +16,7 @@
 **Overview:** Develop an autonomous car that is capable of detecting and avoiding pedestrian-shaped obstacles while following a predetermined track. The OAKD camera will detect and analyze the environment, including the presence of pedestrians, and use that information to make decisions on how to maneuver around them.
 
 **Goals we Promised**
+
 *Pedestrian Detection*
 -   Detection Consistency
     
@@ -68,9 +69,8 @@
 
 ![](https://lh6.googleusercontent.com/HwaLVYWWFR1nt4DSfjNUzTtaECIP2HjjGT86uvrPO-kEEY9Grtu53ja9n7r66BKhBDDcaSqEPdoQ2p8Irte1HIR07JTh67hM9frpC1oWc6o2Q2GjEfqVY_9H_Cw7PRzePl56N9CGAs_uKrH62LEJ0f0)
 
-### Demonstration of the Pedestrian “Legs”
-
-![](https://lh3.googleusercontent.com/GCaUAgDgeFS2nIfUqCbm_4V2Me3rejxjimCJyGnxkiC2GuWycpQ8CoFLTSvJPUuZTtL3_1IGMREA9QjObXGNi9gbn52mJ6E_yZCPM_YkpT0A1H5TTJkARwkNqXxfYc6MIJStqDVkLPbFP21lcd6ujMY)
+### Description of the Pedestrian “Legs”
+The pedestrian's "legs" are made from an Arduino rover that utilizes an Adafruit motor shield. These motors are calibrated to move in a straight line prependicular to the predetermined path of the car.
 
 ### What We Used
 
@@ -79,13 +79,13 @@
 -   Built-in OAK-D depthai functions
     
 
-#### Initial Issues with recognition
+### Initial Issues with recognition
 
 When the pedestrian is attached to its “Legs” the OAK-D camera will often recognize it as a car instead of a person. Our solution is to tell the OAK-D to recognize both vehicles and humans as both “pedestrians”
 
 ![](https://lh3.googleusercontent.com/QTZ4NCvxMmY_l51k1HuYB_Uz7EuFox7yRXnJ7vJcom-xDKx-IzfFGIJVOH9cOAOFk8RbrbV2A_EcypMFleCnV9M6Igl9Y8GPbx-4VTBNMQ20kF1Mi_lIc4497er8jz-cQTAft5uk6wqWuSIKxsQeHy4)![](https://lh3.googleusercontent.com/14FT6iDPITJ5sfr040_L8rnILjH9nJC4gsGPc79_6a47BETYlT18mTcjJuaypcIrpNnLgKBYAWAqkt5tija1QQFdOkZKm1kZCG7VUwxoMpVxHfdJS7k1KKjYWV0GI1pCfuSAwkhfUV9mZHuXLzkMo_8)![](https://lh4.googleusercontent.com/ayKa_Bf2wtQDc7UIN0wOxV5nlxN-9MeW0vxH4tylaz9MPk312pY1pM17oDUCyoyHt3kOFoS8S5VD_mDtrtLZdiGwz3NsA-OuYP8Sbqp6eHvADzVQaZI0mIhWyB_qq6ZVNqF6RzwNqFWCcNC_0Owlt1k)
 
-#### What did not work as expected
+### What did not work as expected
 
 -   Initially, the detection didn’t work well on moving targets. It would capture a person/car for a second, but then it would stop seeing it the next. This caused the stop and drive commands to interfere with each other.
     
@@ -102,7 +102,7 @@ When the pedestrian is attached to its “Legs” the OAK-D camera will often re
 -   Potentially inconsistent depth recognition: The depth detection assumed that the closest object would always be the pedestrian. However, if it sees a person/car in the distance and also has something else close to it, it will stop at an unintended
     
 
-#### Accomplishments
+### Accomplishments
 Pedestrian Detection
     
 
@@ -121,4 +121,5 @@ Pedestrian Avoidance
 -   Car is able to stop when it sees the pedestrian in its line of sight and back up. When pedestrian cross out of its view, across the road, the car proceeds forward.
     
 
-### Early Quarter
+## Early Quarter
+
