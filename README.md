@@ -3,7 +3,19 @@
 # **MAE 148 SPRING 2023: Team 7**
 **Team Members:** Blake Iwaisako, William Zhao, Qiudi He, Jeffrey Han
 
-  
+<br />
+<div align="center">
+    <h3>ECE-MAE 148 Final Project</h3>
+    <p>
+    Team 3 Spring 2023
+    </p>
+</div>
+
+<div align="center">
+    <img src="images\ourRobot.PNG" width="500" height="400">
+</div>
+<br>
+<hr>
   
 
 
