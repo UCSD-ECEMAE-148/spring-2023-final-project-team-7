@@ -142,6 +142,19 @@ Pedestrian Avoidance
 
 -   Car is able to stop when it sees the pedestrian in its line of sight and back up. When pedestrian cross out of its view, across the road, the car proceeds forward.
 
+### Tasks we could accomplish if we had more time...
+- Track the pedestrian specifically to avoid detecting other objects
+
+- Implement Lidar as a redundancy
+    - This is helpful in case the pedestrian has any yellow colors on it
+
+- Design the car to slow down as it nears the pedestrian to simulate a real life situation (It’s also healthier for the gearbox)
+
+- Add a speaker with car horn audio if pedestrian stays in front of it for too long
+    - Move around the pedestrian if it stays for too long
+
+
+
 <div align="center">
     <h2>Early Quarter</h2>
 </div>
