@@ -116,7 +116,9 @@ When the pedestrian is attached to its “Legs” the OAK-D camera will often re
     
 
 -   Yellow Pedestrian: The model pedestrian had quite a bit of yellow on it. This would cause the car to follow it like a yellow line sometimes rather than stopping.
-    
+<div align="center">
+    <img src="Images\pedestrian_painted" width="500" height="700">
+</div>
 
 -   Solution: Painted all yellow parts on the pedestrian black.
     
