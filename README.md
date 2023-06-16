@@ -5,7 +5,7 @@
 
 <br />
 <div align="center">
-    <h3>Team 3 Members</h3>
+    <h3>Team 7 Members</h3>
     <p>
     </p>
 </div>
