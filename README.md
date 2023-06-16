@@ -1,17 +1,18 @@
-![Home | Jacobs School of Engineering](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
-
+<div align="center">
+    <img src="Images\JSOElogo.png" width="500" height=125">
+</div>
 # **MAE 148 SPRING 2023: Team 7**
-**Team Members:** Blake Iwaisako, William Zhao, Qiudi He, Jeffrey Han
+**Team Members:** (Left to Right) Qiudi He, William Zhao ,Blake Iwaisako, Jeffrey Han
 
 <br />
 <div align="center">
-    <h3>ECE-MAE 148 Final Project</h3>
+    <h3>Team 7 Members</h3>
     <p>
     </p>
 </div>
 
 <div align="center">
-    <img src="Images\robot_front" width="500" height="700">
+    <img src="Images\stone_cold.png" width="500" height="325">
 </div>
 <br>
 <hr>
@@ -116,7 +117,9 @@ When the pedestrian is attached to its “Legs” the OAK-D camera will often re
     
 
 -   Yellow Pedestrian: The model pedestrian had quite a bit of yellow on it. This would cause the car to follow it like a yellow line sometimes rather than stopping.
-    
+<div align="center">
+    <img src="Images\pedestrian_painted" width="500" height="700">
+</div>
 
 -   Solution: Painted all yellow parts on the pedestrian black.
     
@@ -141,6 +144,19 @@ Pedestrian Avoidance
     
 
 -   Car is able to stop when it sees the pedestrian in its line of sight and back up. When pedestrian cross out of its view, across the road, the car proceeds forward.
+
+### Tasks we could accomplish if we had more time...
+- Track the pedestrian specifically to avoid detecting other objects
+
+- Implement Lidar as a redundancy
+    - This is helpful in case the pedestrian has any yellow colors on it
+
+- Design the car to slow down as it nears the pedestrian to simulate a real life situation (It’s also healthier for the gearbox)
+
+- Add a speaker with car horn audio if pedestrian stays in front of it for too long
+    - Move around the pedestrian if it stays for too long
+
+
 
 <div align="center">
     <h2>Early Quarter</h2>
