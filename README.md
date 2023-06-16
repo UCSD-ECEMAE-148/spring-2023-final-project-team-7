@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-    <img src="Images\stone_cold" width="500" height="700">
+    <img src="Images\stone_cold.png" width="500" height="325">
 </div>
 <br>
 <hr>
