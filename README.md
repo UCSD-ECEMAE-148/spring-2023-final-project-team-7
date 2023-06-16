@@ -1,5 +1,6 @@
-![Home | Jacobs School of Engineering](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
-
+<div align="center">
+    <img src="Images\JSOElogo.png" width="500" height=125">
+</div>
 # **MAE 148 SPRING 2023: Team 7**
 **Team Members:** (Left to Right) Qiudi He, William Zhao ,Blake Iwaisako, Jeffrey Han
 
